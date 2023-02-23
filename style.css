@@ -1,0 +1,10 @@
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+.location, .time {
+    display:inline-block;
+    position:relative;
+    float:right;
+}
