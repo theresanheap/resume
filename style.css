@@ -1,6 +1,16 @@
+body {
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 5%;
+}
 h1, h2 {
-    color: red;
     text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .location, .time {
