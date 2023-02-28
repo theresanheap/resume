@@ -4,7 +4,7 @@ body {
     padding-left: 20%;
     padding-bottom: 5%;
     margin: 0 auto;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Bitter', serif;
   }
   h1,
   h2 {
@@ -14,6 +14,7 @@ body {
   h3 {
     padding-top: 20px;
     margin-top: 0;
+    margin-bottom: 0px;
   }
   
   a {
@@ -36,12 +37,12 @@ body {
 
   a:hover {
     transition: ease-in-out 0.5s;
-    color: rgb(169,169,169);
+    color: #5fb4c6
   }
   
   ul:hover {
     transition: ease-in-out 0.5s;
-    background-color: rgba(237, 231, 225, 0.5);
+    background-color: rgba(95, 180, 198, 0.1);
     border-radius: 20px;
   }
 
@@ -61,7 +62,7 @@ body {
   color: #36395A;
   cursor: pointer;
   display: inline-flex;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Bitter', serif;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -94,9 +95,15 @@ body {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+.edu-ani {
+    margin: 1px;
+    padding: 9px;
+}
   .edu-ani:hover {
     transition: ease-in-out 0.5s;
-    background-color: rgba(237, 231, 225, 0.5);
+    background-color: rgba(95, 180, 198, 0.1);
+    border-radius: 20px;
   }
   .inner-format {
     padding: 2%;
@@ -115,11 +122,6 @@ body {
     padding-top: 0%;
     padding-bottom: 5px;
   }
-  .to-lo-line:hover {
-    transition: ease-in-out 0.5s;
-    background-color: rgba(237, 231, 225, 0.5);
-  }
-  
   .location,
   .time {
     display: inline-block;
