@@ -11,9 +11,10 @@ h1, h2 {
 a {
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 
-.location, .time {
+.location, .time{
     display:inline-block;
     position:relative;
     float:right;
